@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Weather App</string>
+    <string name="add_city">New city</string>
+    <string name="loading_cities_error">Error while loading cities</string>
+    <string name="menu_delete_city">Delete city</string>
+    <string name="city_name_hint">city name</string>
+    <string name="successfully_saved_city_message">City saved</string>
+
+    <string name="no_cities_all">You have no favourite cities!</string>
+    <string name="no_cities_add">Add a city or just check weather +</string>
+    <string name="refresh">Refresh</string>
+    <string name="get_weather">get weather</string>
+    <string name="latitude">lat:</string>
+    <string name="longitude">lon:</string>
+    <string name="cloudiness">Cloudiness:</string>
+    <string name="humidity">Humidity:</string>
+
+</resources>
