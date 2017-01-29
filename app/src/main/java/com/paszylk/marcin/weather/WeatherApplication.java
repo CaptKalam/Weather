@@ -18,8 +18,7 @@ public class WeatherApplication extends Application {
     /**
      * Insert your own APPID from openweathermap.org
      */
-    //TODO: remove my key
-    public static final String OPEN_WEATHER_MAP_APP_ID = "badf15c19867188348efccc22abb3d1c";
+    public static final String OPEN_WEATHER_MAP_APP_ID = "";
 
     private char[] joinedArray;
     private Secret secret;
@@ -28,8 +27,7 @@ public class WeatherApplication extends Application {
     static {
         if(RootDetection.isRooted()){
             Log.e("Root detection", "device is rooted. Exiting!");
-            //TODO: uncomment this line
-            //System.exit(0);
+            System.exit(0);
         }
     }
 
